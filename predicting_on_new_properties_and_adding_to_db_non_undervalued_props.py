@@ -19,12 +19,11 @@ import requests
 from bs4 import BeautifulSoup
 import datetime as datetime
 
-
 # In[2]:
 
 
 # always enter page number you want
-page_nze = 5
+page_nze = 60
 
 
 # pd.options.display.max_colwidth=None
@@ -1995,7 +1994,7 @@ new2['city'] = new2['city'].str.strip()
 # In[200]:
 
 
-new2['price_per_sq_ft'] = new2['price']/new2['sq_ft']
+new2['price_per_sq_ft'] = new2['price'] / new2['sq_ft']
 
 
 # In[201]:
@@ -2186,9 +2185,9 @@ duplex = new5[a & b]
 
 
 # In[229]:
+duplex = duplex[duplex['property_type'] == 'Other']
 
-
-duplex
+print(duplex)
 
 
 # In[230]:
@@ -2222,7 +2221,7 @@ html = """<html>
 part1 = MIMEText(html, 'html')
 msg.attach(part1)
 username = str('arniekanagz@yahoo.com')
-password = str('bjsnrleduoosdhna')
+password = str('wficoxedrplzgcrt')
 server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
 server.connect("smtp.mail.yahoo.com", 587)
 server.starttls()
@@ -2255,7 +2254,7 @@ except:
     msg['Subject'] = "under_valued_properties"
     msg['From'] = 'arniekanagz@yahoo.com'
     username = str('arniekanagz@yahoo.com')
-    password = str('bjsnrleduoosdhna')
+    password = str('wficoxedrplzgcrt')
     server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
     server.connect("smtp.mail.yahoo.com", 587)
     server.starttls()
@@ -2281,7 +2280,7 @@ html = """\
 part1 = MIMEText(html, 'html')
 msg.attach(part1)
 username = str('arniekanagz@yahoo.com')
-password = str('bjsnrleduoosdhna')
+password = str('wficoxedrplzgcrt')
 server = smtplib.SMTP("smtp.mail.yahoo.com", 587)
 server.connect("smtp.mail.yahoo.com", 587)
 server.starttls()
