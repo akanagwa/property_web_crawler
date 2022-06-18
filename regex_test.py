@@ -1437,6 +1437,7 @@ def find_number(text):
 
 
 # In[123]:
+pd.options.display.max_columns = None
 
 
-print(new2)
+print(new2.head())
