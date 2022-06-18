@@ -1,0 +1,6 @@
+address,price,zip_code,city,bed_rooms,bath_rooms,sq_ft,lot_size,property_type,unique_id,devon_zip,geo_distance_km,bed_to_bath_ratio,median_homeprice_byzip,Median_income,Population,percapitmedianzipprice,BrokenArrow,Edmond,Lawton,Moore,Norman,OKC,Tulsa
+"10105StonehamAvenue,TheVillage,OK73120",285000,73120,other,4,2,1390,0.297,Residential,e7554b06b,73102,12.9556545,0.5,404000,49559.8651,35661,11.32890272,0,0,0,0,0,0,0
+"2420CarltonWay,TheVillage,OK73120",209900,73120,other,3,1,1179,0.157,Residential,42653f740,73102,12.9556545,0.333333333,404000,49559.8651,35661,11.32890272,0,0,0,0,0,0,0
+"2325MilanoLane,TheVillage,OK73120",325000,73120,other,3,2,1846,0.153,Residential,31f76ad6a,73102,12.9556545,0.666666667,404000,49559.8651,35661,11.32890272,0,0,0,0,0,0,0
+"1508SheffieldRoad,TheVillage,OK73120",229000,73120,other,3,2,1593,0.15,Residential,d38e8da38,73102,12.9556545,0.666666667,404000,49559.8651,35661,11.32890272,0,0,0,0,0,0,0
+"2424Oxfordway,TheVillage,OK73120",198500,73120,other,2,2,1409,0.19,Residential,3d5289203,73102,12.9556545,1,404000,49559.8651,35661,11.32890272,0,0,0,0,0,0,0

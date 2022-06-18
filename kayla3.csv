@@ -1,0 +1,6 @@
+address,price,zip_code,city,bed_rooms,bath_rooms,sq_ft,lot_size,property_type,unique_id,price_per_sq_ft,devon_zip,geo_distance_km,bed_to_bath_ratio,median_homeprice_byzip,Median_income,Population,percapitmedianzipprice,BrokenArrow,Edmond,Lawton,Moore,Norman,OKC,Tulsa
+"203E.Broadway,Blanchard,OK73010",171900,73010,other,5,2,1560,0.01,Residential,e72632216,110.1923077,73102,40.78238166,0.4,293450,54870.9713,12345,23.77075739,0,0,0,0,0,0,0
+"516CedarDrive,Blanchard,OK73010",899000,73010,other,4,4,3959,2.17,Residential,45dc85cb8,227.0775448,73102,40.78238166,1,293450,54870.9713,12345,23.77075739,0,0,0,0,0,0,0
+"2481CountyRoad1322,Blanchard,OK73010",265000,73010,other,3,3,2328,1.62,Residential,096a91cb8,113.8316151,73102,40.78238166,1,293450,54870.9713,12345,23.77075739,0,0,0,0,0,0,0
+"2008Ethan'sRoarRoad,Blanchard,OK73010",253790,73010,other,3,2,1526,1.33,Residential,0e7dd2f9d,166.310616,73102,40.78238166,0.666666667,293450,54870.9713,12345,23.77075739,0,0,0,0,0,0,0
+"1501FoxRunLn,Blanchard,OK73010",485000,73010,other,3,2,2366,1.83,Residential,716521d6c,204.9873204,73102,40.78238166,0.666666667,293450,54870.9713,12345,23.77075739,0,0,0,0,0,0,0
